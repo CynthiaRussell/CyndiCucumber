@@ -13,7 +13,7 @@ public class MyFirstTest {
 
         FirefoxDriver driver = new FirefoxDriver();
         driver.get("https://www.mozilla.org/en-US/firefox/45.0.2/firstrun/learnmore/");
-        assertTrue(driver.getTitle().equals("mozilla"));
+        assertTrue(driver.getTitle().equals("en-US"));
 
         driver.quit();
     }
